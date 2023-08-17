@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio Elaborata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+     <header class="">
+         <nav>
+             <section id="nav-desktop" class="hidden md:flex gap-2 lg:gap-8 justify-end  font-semibold mt-2 mr-4 ">
+                 <button class="navButton">Works</button>
+                 <button class="navButton">Blog</button>
+                 <button class="navButton">Contato</button>
+             </section>
+             <section id="nav-mobile" class="p-2 h-12 flex justify-end md:hidden ">
+                <button class="navButton">
+                     <img src="assets/menu.png" alt="">
+                </button>
+            </section>
+         </nav>
+     </header>
+     <main class="px-14 md:px-24 pt-24">        
+         <section class="banner-top flex flex-col mt-12 md:flex-row gap-0 align-middle">
+             <section class=" avatar flex justify-center mb-4 w-full md:hidden ">
+                 <img src="assets/Ellipse 1.png" alt="Foto do meu avatar" class="shadow-xl rounded-full">
+             </section> 
+             <section class="text-banner text-center md:text-left grid font-bold text-3xl text-zinc-800 w-full">
+                 Olá, sou aluno do curso de Front-End da Elaborata!
+                 <section class="text-sm font-medium mt-4 md:w-full">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consequuntur asperiores eius ad doloremque quae repellat, maiores quos esse non veniam pariatur ullam dicta dignissimos molestiae atque architecto ab dolorem?
+                 </section>    
+             </section>
+             <section class="hidden avatar md:flex justify-center mb-4 w-1/2 px-0">
+                 <img src="assets/Ellipse 1.png" alt="Foto do meu avatar" class="shadow-xl rounded-full">
+             </section>      
+         </section>
+         <section class="">
+             <div class="mx-32 text-base bg-white md:mx-0">
+                 <button id="dowload-cv" class="rounded-xl  w-full  lg:w-1/4  md:w-1/5 items-start bg-indigo-500 text-white py-3 mt-6 hover:bg-indigo-900 ">
+                     <div class="md:align-bottom">Dowload CV</div>
+                 </button>
+             </div>  
+        </section>
+    </main>
+         <section class="px-14 container-post-recents md:px-24 pt-full bg-cyan-50  pb-10 pt-5">
+         <section class="hidden md:flex justify-between ">
+             <section class="title-post-container  ">
+                 <div class="text-center md:mb-6 mt-10 text-lg font-semibold ">Post recents</div> 
+             </section>
+             <section id="title-post-container" class=" md:p-1 mb-6 mt-10 text-sm font-thin text-blue-600">
+                 <div class="">Ver tudo</div> 
+             </section>
+        </section>
+         <section class="title-post-container md:mt-4">
+            <div class="mt-24 text-center md:hidden mb-6 text-lg font-semibold ">Post recents</div> 
+         </section>
+             <section class="list-posts md:flex justify-center gap-8 ">
+             <article class="card-post shadow-xl mb-6 p-6 bg-white">
+                 <div class=" font-bold text-xl">Front End elaborata</div>
+                 <div class="flex gap-4 py-4 ">
+                     <div>12 Fev 2023</div>
+                     <div class="border border-1 border-red-400"></div>
+                     <div>Javascript</div>
+                </div> 
+                 <div>
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                 </div>
+             </article>
+             <article class="card-post mt-16 md:mt-auto shadow-xl mb-6 p-6 bg-white">
+                <div class=" font-bold text-xl">Creating pixel perfect icons in Figma</div>
+                <div class="flex gap-4 py-4">
+                    <div>16 Feb 2023</div>
+                    <div class="border border-1 border-red-400"></div>
+                    <div>CSS</div>
+               </div> 
+                <div>
+                    Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags .style . Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos
+                </div>
+            </article>
+             <!-- <article class="card-post mt-8 shadow-xl bg-amber-300 mb-4">
+                <div class=" font-bold text-xl"></div>
+                <div class="flex gap-4 py-4 ">
+                    <div></div>
+                    <div class="border border-1 border-zinc-500"></div>
+                    <div>CSS</div>
+               </div>
+                <div>
+                    Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags .style . Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos
+                </div>
+            </article> -->
+             </section>
+        </section>
+         <section class="mb-7">
+             <section class="px-14 md:px-24">                
+                 <section class="featured-works">
+                    <div class="text-center md:hidden mb-4 mt-10 text-lg font-semibold">Featured-works</div>
+                    <div id="text-center" class="hidden md:flex mb-8 mt-10 text-lg font-semibold">Meu portifólio</div> 
+                 </section>                
+                 <!-- <section class="meu portifolio">
+                    <div id="text-center" class="hidden md:text-white mb-4 mt-10 text-lg font-semibold ">Meu portifólio</div>
+                 </section> -->
+             <section class="md:flex gap-24 mb-10 shadow-md">
+                 <section class="work-list flex justify-center rounded-md mb-4 md:justify-between">
+                     <img src="assets/Rectangle 30.jpg" class="w-full md:w-80 h-full rounded-lg" alt="Foto-designing-dashboard">
+                 </section> 
+                 <article class="w-full card-post shadow-xl mb-6 p-6 md:w-3/4 lg:shadow-none ">
+                      <div class=" font-bold text-xl">Designing Dashboards</div>
+                      <div class="flex gap-4 py-4 ">
+                           <div class="bg-blue-950 text-white rounded-lg px-2">2020</div>
+                           <div class=""></div>
+                           <div>Javascript</div>
+                      </div> 
+                      <div>
+                        JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                     </div>
+                 </article>
+            </section>
+            <section class="hidden md:flex gap-24 mb-10 shadow-md ">
+                 <section class="work-list flex justify-center rounded-lg mb-4 md:">
+                     <img src="assets/Rectangle 32.jpg" class="w-full md:w-72 h-full rounded-xl" alt="Foto-designing-womam">
+                 </section> 
+                 <article class="w-full card-post shadow-xl mb-6 p-6 md:w-2/3 lg:shadow-none ">
+                     <div class=" font-bold text-xl">Vibrant Portraits of 2020</div>
+                     <div class="flex gap-4 py-4 ">
+                         <div class="bg-blue-950 text-white rounded-lg px-2">2018</div>
+                         <div class=""></div>
+                         <div>CSS</div>
+                     </div> 
+                     <div>
+                         JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                     </div>
+                 </article>
+            </section>
+            <section class="hidden  md:flex gap-24 mb-10 shadow-md ">
+                 <section class="work-list flex justify-center roundedxl mb-4 md:">
+                     <img src="assets/Rectangle 34.png" class="w-72 h-full rounded-xl"alt="Foto-designing-art">
+                 </section> 
+                 <article class="card-post shadow-xl mb-6 p-6 md:shadow-none w-2/3">
+                     <div class=" font-bold text-xl">36 Days of Malayalam type</div>
+                     <div class="flex gap-4 py-4 ">
+                         <div class="bg-blue-950 text-white rounded-lg px-2">2018</div>
+                         <div class=""></div>
+                         <div>Arts</div>
+                     </div> 
+                     <div>
+                         JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+                    </div>
+                 </article>
+            </section>
+            </section>
+        </section>
+             <section class="icons flex gap-8 mt-52 justify-center">
+                 <section class="flex gap-8 justify-items-center ">
+                         <a href="https://www.facebook.com/" target="_blank">
+                             <img src="assets/fb.svg" alt="">
+                         </a>
+                         <a href="https://twitter.com/" target="_blank">
+                             <img src="assets/Group.png" alt="">
+                         </a>
+                         <a href="https://www.linkedin.com/" target="_blank">
+                             <img src="assets/Linkedin.svg" alt="">
+                         </a>
+                         <a href="https://www.instagram.com/" target="_blank">
+                             <img src="assets/insta.svg" alt="">
+                         </a>                
+                 </section>
+             </section>
+             <div class="flex justify-center mt-16 mb-8">Copyright ©️2020 All rights reserved </div>
+     
+</body>
+</html>
